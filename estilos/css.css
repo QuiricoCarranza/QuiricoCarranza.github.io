@@ -1,0 +1,133 @@
+/* Estilos globales para el cuerpo del documento */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #fff;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para el encabezado */
+.header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.header img {
+  max-width: 100%;
+}
+
+/* Estilos para la división SVG decorativa */
+.svg-divider {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Estilos para la sección de información del juego */
+.game-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas en el grid */
+  gap: 20px; /* Espacio entre las columnas */
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco para contraste */
+  padding: 20px; /* Espacio interior para mejorar la legibilidad */
+}
+
+/* Estilos para las imágenes del juego */
+.game-image {
+  text-align: center;
+  transition: transform 0.3s; /* Agregar una transición suave */
+}
+
+.game-image:hover {
+  transform: scale(1.2); /* Escalar la imagen al 120% en hover */
+}
+
+.game-image img {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* Estilos para el texto de información */
+.info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 28px;
+}
+
+/* Estilos para los elementos SVG */
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 0px; /* Espacio superior para separar del contenido anterior */
+}
+
+/* Estilos para el nuevo grid */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+  gap: 20px; /* Espacio entre las columnas */
+}
+
+.item {
+  display: flex;
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+.imagen {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+}
+
+.texto {
+  padding: 20px; /* Espacio alrededor del texto */
+}
+
+#image11 {
+  max-height: 80%;
+  max-width: auto;
+}
+#image22 {
+  max-height: 80%;
+  max-width: auto;
+}
+#image33 {
+  max-height: 100%;
+  max-width: auto;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  text-align: center;
+  background-color: #333;
+  padding: 10px 0;
+}
